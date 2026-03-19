@@ -36,5 +36,5 @@ models:
     #       arguments:
     #         expression: "ROUND(sale_dollars, 1) = TRUNC(bottles_sold * state_bottle_retail, 1)"
     #         severity: error # accepts only `error` and `warn` default is error
-
+    # this is a very powerful test that allows you to write any SQL expression that returns a boolean value. If the expression evaluates to false, the test will fail. You can use this test to enforce complex business rules and data quality checks that cannot be easily expressed with other tests.
 
